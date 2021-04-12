@@ -1,4 +1,4 @@
-document.addEventListener("click", generateRota);
+document.querySelector("button").addEventListener("click", generateRota);
 
 
 let daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];

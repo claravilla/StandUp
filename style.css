@@ -8,7 +8,7 @@ h1 {
     font-size: 5rem;
 }
 
-button {
+.rota {
     background: #3DE5F6;
     background-image: -webkit-linear-gradient(top, #3DE5F6, #69A165);
     background-image: -moz-linear-gradient(top, #3DE5F6, #69A165);
@@ -51,5 +51,33 @@ button {
    margin-top:50px;
    font-size: 3rem;
    text-align: center;
-  font-family: 'Quicksand', sans-serif; 
+   font-family: 'Quicksand', sans-serif; 
+}
+
+.hidden {
+    display: none;
+}
+
+.clear {
+    margin-top: 30px;
+    background: #247e88;
+    /* background-image: -webkit-linear-gradient(top, #3DE5F6, #69A165);
+    background-image: -moz-linear-gradient(top, #3DE5F6, #69A165);
+    background-image: -ms-linear-gradient(top, #3DE5F6, #69A165);
+    background-image: -o-linear-gradient(top, #3DE5F6, #69A165);
+    background-image: -webkit-gradient(to bottom, #3DE5F6, #69A165); */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
 }

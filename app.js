@@ -19,16 +19,16 @@ function initPage() {
   document.querySelector(".answer").innerHTML = "";
   daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
   squad = [
-    "A La Cart",
-    "Bionicles",
-    "Brickoin",
-    "Cybots",
-    "Disco",
-    "Dora",
-    "Guardians",
-    "Houston",
-    "Mixels",
-    "VIPers",
+    "A La Cart 🛒",
+    "Bionicles 👹",
+    "Brickoin 💰",
+    "Cybots 🦾",
+    "Disco 🕺",
+    "Dora 🏝️",
+    "Guardians 🛡️",
+    "Houston 🚀",
+    "Mixels 👾",
+    "VIPers 🐍",
   ];
 
   daysOfWeekCounter = 0;

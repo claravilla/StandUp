@@ -91,6 +91,8 @@ switch (startingDay) {
       "Monday",
       "Tuesday",
       "Wednesday",
+      "Thursday",
+      "Friday"
     ];
     break;
   case "tue":
@@ -103,6 +105,9 @@ switch (startingDay) {
       "Tuesday",
       "Wednesday",
       "Thursday",
+      "Friday",
+      "Monday"
+
     ];
     break;
   case "wed":
@@ -115,6 +120,8 @@ switch (startingDay) {
       "Wednesday",
       "Thursday",
       "Friday",
+      "Monday",
+      "Tuesday"
     ];
     break;
   case "thu":
@@ -127,6 +134,8 @@ switch (startingDay) {
       "Thursday",
       "Friday",
       "Monday",
+      "Tuesday",
+      "Wednesday"
     ];
     break;
   case "fri":
@@ -139,6 +148,8 @@ switch (startingDay) {
       "Friday",
       "Monday",
       "Tuesday",
+      "Wednesday",
+      "Thursday"
     ];
     break;
   default:
@@ -151,6 +162,8 @@ switch (startingDay) {
       "Monday",
       "Tuesday",
       "Wednesday",
+      "Thursday",
+      "Friday"
     ];
 }
 

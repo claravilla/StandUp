@@ -74,7 +74,9 @@ function generateDay() {
 function newRota() {
 
 let startingDay = document.getElementById("day").value; //getting the value from the drop down menu
+let rotaLength = document.getElementById("length").value; //getting the value from the drop down menu
 console.log(startingDay);
+console.log(rotaLength);
 
 //set daysOfWeek value according to the starting day selected
 
@@ -152,13 +154,13 @@ switch (startingDay) {
     ];
 }
 
-generateRota (daysOfWeek);  //call the generateRota function with the day of the week we want
+generateRota (daysOfWeek,rotaLength);  //call the generateRota function with the day of the week and length we want
 };
 
 //function to generate a X days rota and display the clear button
 
-function generateRota(day) {
-  for (d = 0; d < day.length; d++) {
+function generateRota(day, length) {
+  for (d = 0; d < length; d++) {
     generateDay();
   }
   document.querySelector(".clear").classList.remove("hidden");

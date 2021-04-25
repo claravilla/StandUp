@@ -180,11 +180,3 @@ function generateRota(day, length) {
 }
 
 
-
-/*if i want to ask also for the lenght
-    - create a drop down menu for it or free text
-    - get element by id and set a variable to that value
-    -pass the value to the generate Rota and run the day rota only that number of time
-
-
-    */

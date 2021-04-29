@@ -179,3 +179,7 @@ function generateRota(day, length) {
   document.querySelector(".clear").classList.remove("hidden");
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 721389d758bb795012b7feb64642159ae39ce43c

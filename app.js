@@ -4,6 +4,7 @@ let daysOfWeek = [];
 let squad = [];
 let daysOfWeekCounter = 0;
 
+// Test PR
 //initialise page
 initPage();
 
